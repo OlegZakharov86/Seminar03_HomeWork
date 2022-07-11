@@ -18,18 +18,9 @@ namespace HelloWorld
             int Zb = Convert.ToInt32(Console.ReadLine());
 
             int len = (Xb-Xa)*(Xb-Xa) + (Yb-Ya)*(Yb-Ya) + (Zb-Za)*(Zb-Za); 
-            double dist = Sqrt(len);
+            double dist = Math.Sqrt(len);
             Console.WriteLine(dist);
         }
-        public static double Sqrt (double d)
-        {
-            double n = Sqrt(d);
-            return n;
-        }
-        
-
-
-
         
     }
 }
